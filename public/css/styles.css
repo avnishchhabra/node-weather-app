@@ -1,0 +1,42 @@
+html {
+    width: 60%;
+    margin: 10px auto;
+    font-family: arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content {
+    flex-grow: 1
+}
+
+/* .header > a {
+    text-decoration: none;
+} */
+footer {
+    border-top: 1px solid lightgray;
+    padding: 20px 0;
+}
+.header>a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+h1 {
+    color: rgb(94, 88, 88);
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    color: white;
+    border: 1px solid #888888 ;
+    background: #888888;
+    padding: 8px;
+    cursor: pointer;
+}
