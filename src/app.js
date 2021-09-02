@@ -23,7 +23,7 @@ app.use(express.static(publicDirPath))
 
 app.get('', (req,res) => {
     res.render('index', {
-        title: 'dynamic title',
+        title: 'Dynamic Home',
         name: 'Avnish'
     })
 })
