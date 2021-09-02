@@ -8,7 +8,7 @@ const secondPara = document.getElementById('secondPara')
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   firstPara.textContent = 'Loading...'
-  fetch(`http://localhost:3000/weather/?address=${input.value}`).then((res) =>
+  fetch(`/weather/?address=${input.value}`).then((res) =>
     res.json().then((data) => {
       console.log("data ear", data);
       if (data.error) {
